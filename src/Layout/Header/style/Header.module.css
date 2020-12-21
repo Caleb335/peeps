@@ -1,0 +1,33 @@
+#body{
+    display: flex;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+}
+.blue{
+    background-color: rgb(55, 55, 216);
+    width: 100%;
+}
+.blue img{
+    width: 70px;
+    height: 60px;
+    margin: 3px 300px;
+}
+.text{
+    color: white;
+    display: flex;
+    margin: -65px 500px;
+    justify-content: space-evenly;
+    
+}
+.text button{
+    background-color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border: none;
+    margin: 4px 15px;
+    padding: 10px;
+   
+}
