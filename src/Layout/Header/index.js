@@ -1,22 +1,18 @@
-import React from 'react';
+import React from "react";
 import HeadStyle from "./style/Header.module.css";
-import {RiPencilFill} from 'react-icons/ri';
+import { RiPencilFill } from "react-icons/ri";
 
 const Header = () => {
-    return(
+  return (
+    <div id={HeadStyle.body} className={HeadStyle.blue}>
+      <img src="/static/img/tipcoin.png" alt="tipcoin" />
+      <div className={HeadStyle.text}>
+        <RiPencilFill size={25} color="white" />
+        <h4>LOGIN</h4>
+        <button className={HeadStyle.btn}>JOIN US</button>
+      </div>
+    </div>
+  );
+};
 
-        <div id={HeadStyle.body}>
-            <div className={HeadStyle.blue}>
-                <img src="/static/img/tipcoin.png" alt="tipcoin" />
-                 <RiPencilFill size={25} color="white"/>  
-                 <div className={HeadStyle.text}>
-                 <h4>LOGIN</h4>
-                <button>JOIN US</button>
-                </div>
-            </div>
-        </div>
-     
-    );
-  }
-  
-  export default Header;  
+export default Header;
